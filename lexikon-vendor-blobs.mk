@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/lexikon/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/lexikon/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/lexikon/proprietary/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so \
+    vendor/htc/lexikon/proprietary/gps.lexikon.so:system/lib/hw/gps.lexikon.so \
+    vendor/htc/lexikon/proprietary/libloc_api-rpc.so:system/lib/libloc_api-rpc.so \
     vendor/htc/lexikon/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/lexikon/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/lexikon/proprietary/libcameraface.so:system/lib/libcameraface.so \
