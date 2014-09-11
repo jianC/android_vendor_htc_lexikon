@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for lexikon
 PRODUCT_COPY_FILES += \
-    vendor/htc/lexikon/proprietary//akmd:/system/bin/akmd \
+    vendor/htc/lexikon/proprietary/akmd:/system/bin/akmd \
     vendor/htc/lexikon/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/lexikon/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/lexikon/proprietary/dmagent:/system/bin/dmagent \
@@ -32,22 +32,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/lexikon/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/lexikon/proprietary/AdieHWCodec_NEL.csv:/system/etc/AdieHWCodec_NEL.csv \
     vendor/htc/lexikon/proprietary/TPA2051_CFG.csv:/system/etc/TPA2051_CFG.csv \
-    vendor/htc/lexikon/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-    vendor/htc/lexikon/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/lexikon/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/lexikon/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/lexikon/proprietary/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/htc/lexikon/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/lexikon/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/lexikon/proprietary/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
-    vendor/htc/lexikon/proprietary/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/htc/lexikon/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/htc/lexikon/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
-    vendor/htc/lexikon/proprietary/libOpenSLES.so:/system/lib/libOpenSLES.so \
-    vendor/htc/lexikon/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/lexikon/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/lexikon/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/lexikon/proprietary/camera.default.so:system/lib/hw/camera.default.so \
+    vendor/htc/lexikon/proprietary/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so \
     vendor/htc/lexikon/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/lexikon/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/lexikon/proprietary/libcameraface.so:system/lib/libcameraface.so \
@@ -56,9 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/lexikon/proprietary/libchromatix_s5k4e1gx_default_video.so:/system/lib/libchromatix_s5k4e1gx_default_video.so \
     vendor/htc/lexikon/proprietary/libchromatix_s5k4e1gx_preview.so:/system/lib/libchromatix_s5k4e1gx_preview.so \
     vendor/htc/lexikon/proprietary/libOlaEngine.so:system/lib/libOlaEngine.so \
-    vendor/htc/lexikon/proprietary/libwvm.so:/system/lib/libwvm.so \
-    vendor/htc/lexikon/proprietary/libwvdrm_L3.so:/system/lib/libwvdrm_L3.so \
-    vendor/htc/lexikon/proprietary/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so \
     vendor/htc/lexikon/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/lexikon/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/lexikon/proprietary/libmmipl.so:/system/lib/libmmipl.so \
