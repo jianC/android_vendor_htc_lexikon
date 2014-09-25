@@ -29,4 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/lexikon/proprietary/lib/libchromatix_s5k4e1gx_preview.so:/system/lib/libchromatix_s5k4e1gx_preview.so \
     vendor/htc/lexikon/proprietary/lib/libchromatix_s5k4e1gx_default_video.so:/system/lib/libchromatix_s5k4e1gx_default_video.so \
     vendor/htc/lexikon/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/lexikon/proprietary/lib/libims_ril.so:/system/lib/libims_ril.so
+    vendor/htc/lexikon/proprietary/lib/libims_ril.so:/system/lib/libims_ril.so \
+    vendor/htc/lexikon/proprietary/lib/hw/gps.lexikon.so:/system/lib/hw/gps.lexikon.so \
+    vendor/htc/lexikon/proprietary/lib/libloc_api-rpc.so:/system/lib/libloc_api-rpc.so \
+    vendor/htc/lexikon/proprietary/lib/librpc.so:/system/lib/librpc.so
